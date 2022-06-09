@@ -2189,13 +2189,13 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			overflow: hidden;
+			overflow: visible;
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 100%;
+				width: 150%;
 			}
 
 		.image.main {
@@ -2678,6 +2678,8 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
+			text-align: justify;
+  			text-justify: inter-word;
 			width: 50%;
 		}
 
@@ -2830,6 +2832,8 @@ input, select, textarea {
 
 		#main > section > .container {
 			padding: 6em 0 4em 0;
+			text-align: justify;
+  			text-justify: inter-word;
 		}
 
 		#main > section:first-child {
